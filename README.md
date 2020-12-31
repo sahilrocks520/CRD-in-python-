@@ -1,2 +1,2 @@
-# CRD-in-python-
+# Feshworks Assignment (CRD-in-python-)
 It is a file-based key-value data store that supports the basic CRD (create, read, and delete) operations. This data store is meant to be used as a local storage for one single process on one laptop. I have created two python program one for creating the datastore(datastore.py) and another one for accessing(access.py) A new key-value pair can be added to the data store using the Create operation. The key is always a string - capped at 32chars. The value is always a JSON object - capped at 16KB.
