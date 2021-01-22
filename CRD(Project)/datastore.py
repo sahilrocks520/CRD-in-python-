@@ -68,8 +68,8 @@ def delete(key):
 
 # I have an additional operation of modify in order to change the value of key before its expiry time if provided
 
-# function for modify operation
-# we have used syntax "modify(key_name,new_value)"
+# Function for modify operation
+# We have used syntax "modify(key_name,new_value)"
 
 def modify(key, value):
     b = d[key]
